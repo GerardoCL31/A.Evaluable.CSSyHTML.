@@ -1,7 +1,7 @@
 * {
-    margin: 1; /* Cambiado a 0 para evitar espaciados no deseados en todo el documento */
+    margin: 1; 
     padding: 1; 
-    box-sizing: border-box; /* Garantiza que las dimensiones incluyan bordes y rellenos */
+    box-sizing: border-box; 
     font-size:105%;
     
     
@@ -26,10 +26,10 @@ body {
         "nav article" 
         "section aside"
         "footer footer";
-    grid-template-rows: 100px 250px 1fr 100px; /* Ajustadas las alturas para que sean más uniformes */
-    gap: 7px; /* Espaciado entre las áreas */
+    grid-template-rows: 100px 250px 1fr 100px; 
+    gap: 7px; 
     font-family:'Roboto',sans-serif;
-    height: 100vh; /* Ajusta la altura de la página al 100% del viewport */
+    height: 100vh; 
 }
 
 header {
@@ -58,7 +58,7 @@ article {
     background: rgba(59, 59, 59, 0.3);
     color: #04fc2d;
     text-align: center;
-    padding: 10px; /* Agregado para mantener consistencia visual */
+    padding: 10px; 
     text-align: justify;
     
 }
