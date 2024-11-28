@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Tecnologías del Futuro</title>
+    <link>https://www.misitio.com</link>
+    <description>Últimas noticias y avances tecnológicos</description>
+    <language>es</language>
+    <pubDate>Wed, 28 Nov 2024 12:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Nov 2024 12:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>La Revolución de la Inteligencia Artificial</title>
+      <link>https://www.misitio.com/inteligencia-artificial</link>
+      <description>Explora los últimos avances en Inteligencia Artificial y sus aplicaciones en la vida diaria.</description>
+      <pubDate>Wed, 28 Nov 2024 12:00:00 +0000</pubDate>
+      <guid>https://www.misitio.com/inteligencia-artificial</guid>
+    </item>
+
+    <item>
+      <title>La Evolución de la Realidad Aumentada</title>
+      <link>https://www.misitio.com/realidad-aumentada</link>
+      <description>La Realidad Aumentada está transformando la forma en que interactuamos con el mundo digital.</description>
+      <pubDate>Tue, 27 Nov 2024 09:00:00 +0000</pubDate>
+      <guid>https://www.misitio.com/realidad-aumentada</guid>
+    </item>
+
+    <item>
+      <title>Las Energías Renovables y su Futuro</title>
+      <link>https://www.misitio.com/energias-renovables</link>
+      <description>Un análisis de cómo las energías renovables están moldeando el futuro energético mundial.</description>
+      <pubDate>Mon, 26 Nov 2024 14:00:00 +0000</pubDate>
+      <guid>https://www.misitio.com/energias-renovables</guid>
+    </item>
+
+  </channel>
+</rss>
