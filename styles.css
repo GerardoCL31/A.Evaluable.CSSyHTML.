@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #000;
-    font-size: x-large;
+    font-size: large;
 }
 
 body{
@@ -12,11 +12,9 @@ grid-template-areas:
 "header header" 
 "nav article" 
 "section aside"
-
 "footer footer";
 
-grid-template-rows: auto auto 1fr 1fr auto;
-grid-template-rows: 2fr 1fr;
+grid-template-rows: 100px 120px 1fr 1fr 100px;
 gap:10px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 height: 100vh;
@@ -29,15 +27,18 @@ header{
     text-align: center;
     padding: 10px;
     height: 100px;
+    text-decoration: underline;
+    font-size: xx-large;
+
 }
 
 nav{
     grid-area: nav;
-    background: #333;
-    color: #f7ff00;
+    background: #000000;
+    color: #a8ad1d;
     text-align: center;
-    padding: 10px;
-    height: 150px;
+    font-size: medium;
+
     
 }
 article{
@@ -54,7 +55,7 @@ section{
     color:#f7ff00;
     text-align: center;
     padding: 10px;
-    height: 150px;
+
 }
 
 aside{
@@ -73,5 +74,5 @@ footer{
     color: #f7ff00;
     text-align: center;
     padding: 10px;
-    height: 100px;
+
 }
