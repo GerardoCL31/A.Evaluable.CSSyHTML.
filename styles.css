@@ -16,7 +16,8 @@
 }
 
 body {
-    background-image: url(fondo.jpg);
+    
+    background-image: url(neon.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -27,13 +28,13 @@ body {
         "footer footer";
     grid-template-rows: 100px 250px 1fr 100px; /* Ajustadas las alturas para que sean más uniformes */
     gap: 7px; /* Espaciado entre las áreas */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Roboto',sans-serif;
     height: 100vh; /* Ajusta la altura de la página al 100% del viewport */
 }
 
 header {
     grid-area: header; 
-    background: rgba(141, 139, 139, 0.2);
+    background: rgba(141, 139, 139, 0.3);
     color: #04fc2d;
     text-align: center;
     padding: 10px;
@@ -45,8 +46,8 @@ header {
 
 nav {
     grid-area: nav;
-    background: rgba(0, 0, 0, 0.5);
-    color: #ebf070;
+    background: rgba(59, 59, 59, 0.3);
+    color: #04fc2d;
     
 
 }
@@ -54,8 +55,8 @@ nav {
 
 article {
     grid-area: article;
-    background: rgba(0, 0, 0, 0.5);
-    color: #ebf070;
+    background: rgba(59, 59, 59, 0.3);
+    color: #04fc2d;
     text-align: center;
     padding: 10px; /* Agregado para mantener consistencia visual */
     text-align: justify;
@@ -64,8 +65,8 @@ article {
 
 section {
     grid-area: section;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ebf070;
+    background-color: rgba(59, 59, 59, 0.3);
+    color: #04fc2d;
     text-align: center;
     padding: 10px;
     text-align: justify;
@@ -73,7 +74,7 @@ section {
 
 aside {
     grid-area: aside;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(59, 59, 59, 0.3);
     color: #060600;
     text-align: center;
     padding: 10px;
@@ -81,11 +82,11 @@ aside {
 
 footer {
     grid-area: footer;
-    background: rgba(0, 0, 0, 0.5);
-    color: #04fc2d;
+    background: rgba(59, 59, 59, 0.3);
+    color: #afdfb7;
     text-align: center;
 }
 
 a{
-    color: #04fc2d;
+    color: #32b348;
 }
