@@ -1,12 +1,24 @@
 * {
     margin: 1; /* Cambiado a 0 para evitar espaciados no deseados en todo el documento */
-    padding: 0; 
+    padding: 1; 
     box-sizing: border-box; /* Garantiza que las dimensiones incluyan bordes y rellenos */
-    font-size:111%;
+    font-size:105%;
+    
+    
+    
+
+}
+.Imagen{
+    opacity: 0.8;
+    text-align: center;
+    width: 90%;
+
 }
 
-
 body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
     display: grid;
     grid-template-areas: 
         "header header" 
@@ -17,13 +29,12 @@ body {
     gap: 7px; /* Espaciado entre las áreas */
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh; /* Ajusta la altura de la página al 100% del viewport */
-    background-color: #596276; /* Color de fondo del cuerpo */
 }
 
 header {
     grid-area: header; 
-    background: #5898b0;
-    color: #a6f877;
+    background: rgba(141, 139, 139, 0.2);
+    color: #04fc2d;
     text-align: center;
     padding: 10px;
     font-size: 280%;
@@ -34,21 +45,17 @@ header {
 
 nav {
     grid-area: nav;
-    background: #5898b0;
-    color: #f7ff00;
-    text-align: center;
-    text-align: justify;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ebf070;
+    
 
 }
 
-.Imagen{
-width: 100%;
-}
 
 article {
     grid-area: article;
-    background: #5898b0;
-    color: #f7ff00;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ebf070;
     text-align: center;
     padding: 10px; /* Agregado para mantener consistencia visual */
     text-align: justify;
@@ -57,8 +64,8 @@ article {
 
 section {
     grid-area: section;
-    background-color: #5898b0;
-    color: #f7ff00;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ebf070;
     text-align: center;
     padding: 10px;
     text-align: justify;
@@ -66,7 +73,7 @@ section {
 
 aside {
     grid-area: aside;
-    background: #5898b0;
+    background: rgba(0, 0, 0, 0.5);
     color: #060600;
     text-align: center;
     padding: 10px;
@@ -74,7 +81,11 @@ aside {
 
 footer {
     grid-area: footer;
-    background: #5898b0;
-    color: #f7ff00;
+    background: rgba(0, 0, 0, 0.5);
+    color: #04fc2d;
     text-align: center;
+}
+
+a{
+    color: #04fc2d;
 }
