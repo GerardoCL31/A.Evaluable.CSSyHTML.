@@ -1,8 +1,8 @@
 *{
-    margin: 0;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
+    background-color: #596276;
     font-size: large;
 }
 
@@ -34,19 +34,17 @@ header{
 
 nav{
     grid-area: nav;
-    background: #000000;
+    background: #333;
     color: #a8ad1d;
     text-align: center;
     font-size: medium;
-
     
 }
 article{
     grid-area: article;
     background: #333;
-    color: #f7ff00;
+    color: #a8ad1d;
     text-align: center;
-    padding: 10px;
 }
 
 section{
